@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #48a6e0;
+    background-color: #f1bce3;
     color: #333;
 }
 
 /* ENCABEZADO */
 header {
-    background-color: rgb(124, 143, 193);
+    background-color: rgb(255, 158, 255);
     color: black;
-    text-align: center;*
+    text-align: center;
     padding: 20px;
 }
 
 /* MENÚ */
 nav {
-    background-color: #7f81f1;
+    background-color: #cca3ff;
     padding: 10px;
 }
 nav ul {
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #706aea;
+    color: #f8d5d5;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .bienvenida h2 {
-    color: rgb(134, 198, 237);
+    color: rgb(212, 153, 212);
 }
 
 .bienvenida p {
@@ -58,8 +58,34 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: rgb(128, 208, 233);
+    background-color: rgb(245, 141, 245);
     color: white;
     text-align: center;
     padding: 15px;
+}
+form{
+    background-color: #cca3ff;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea{
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+button{
+    background-color: #f1bce3;
+    color: #fdfdfd;
+    padding: 10px;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+}
+label{
+    background-color: beige;
+    <button type="submit">Guardar<button>
 }
